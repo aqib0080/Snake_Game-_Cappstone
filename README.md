@@ -1,12 +1,30 @@
 # CPPND: Capstone Snake Game Example
 
-This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). The code for this repo was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses.
+This is a submission for the Udacity C++ NanoDegree Capstone Project. It started with Udacity's starter code - which  was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses.
 
-<img src="snake_game.gif"/>
+The original project was modified/enhanced in the following ways :
+In addition to normal food, red food is added. When red food is eaten by the snake the speed of snake and score will reduce by one. When normal food is eating score, size and speed of snake is increased as in base project.
 
-The Capstone Project gives you a chance to integrate what you've learned throughout this program. This project will become an important part of your portfolio to share with current and future colleagues and employers.
+Optional Rubric items addressed :
 
-In this project, you can build your own C++ application or extend this Snake game, following the principles you have learned throughout this Nanodegree Program. This project will demonstrate that you can independently create applications using a wide range of C++ features.
+1. Class constructors utilize member initialization lists.
+- fulfilled in starter code? Yes
+- enhanced? Yes
+- Eg : renderer.h lines 21, 22, 23, 24 rendrer.cpp lines 5 to 11 game.h line 32 game.cpp line 5 to 14 snake .h lines 16 and 38
+
+2. The project uses Object Oriented Programming techniques.
+- fulfilled in starter code? Yes
+- enhanced? No  The starter code already meets this.
+
+3. The project makes use of references in function declarations.
+- fulfilled in starter code? Yes
+- enhanced? Yes 
+- Eg : Game.h lines 24 and 25
+
+4. The project uses destructors appropriately.
+- fulfilled in starter code? Partially
+- enhanced? Yes
+- Added Destructors for all classes
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
