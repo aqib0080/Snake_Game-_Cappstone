@@ -3,6 +3,7 @@
 This is a submission for the Udacity C++ NanoDegree Capstone Project. It started with Udacity's starter code - which  was inspired by [this](https://codereview.stackexchange.com/questions/212296/snake-game-in-c-with-sdl) excellent StackOverflow post and set of responses.
 
 The original project was modified/enhanced in the following ways :
+
 In addition to normal food, red food is added. When red food is eaten by the snake the speed of snake and score will reduce by one. When normal food is eating score, size and speed of snake is increased as in base project.
 
 Optional Rubric items addressed :
